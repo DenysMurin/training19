@@ -115,7 +115,7 @@
   background: aquamarine;
   width: 50px;
   /* box-shadow: 0 0 0 7px lightskyblue; */
-  transition: 0.5s;
+  transition: 0.5s ease-in-out;
 }
 @media screen and (max-width: 900px) {
   #slide1:checked ~ #controls label:nth-child(2),
